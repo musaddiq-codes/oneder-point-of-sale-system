@@ -1,0 +1,31 @@
+
+// {
+//     "usr_firstname": "string",
+//     "usr_lastname": "string",
+//     "usr_email": "string",
+//     "usr_password": "string",
+//     "usr_pin_code": "string",
+//     "usr_phone": "string",
+//     "usr_rol_id_fk": 0,
+//     "usr_is_active": true,
+//     "usr_createdon": "2023-03-13T11:20:14.769Z"
+//   }
+
+// {
+//   usr_firstname*	string
+//   minLength: 1
+//   usr_lastname*	string
+//   minLength: 1
+//   usr_email*	string
+//   minLength: 1
+//   usr_password*	string
+//   minLength: 1
+//   usr_pin_code*	string
+//   minLength: 1
+//   usr_phone*	string
+//   minLength: 1
+//   usr_rol_id_fk*	integer($int32)
+//   usr_is_active*	boolean
+//   usr_createdon	string($date-time)
+//   nullable: true
+//   }

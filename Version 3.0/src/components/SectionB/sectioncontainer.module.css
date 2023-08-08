@@ -1,0 +1,12 @@
+.leftcontainers {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: 'column'; */
+    width: 100%;
+    height: 100vh;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* background-color: white; */
+    background-color: #11172e;
+}

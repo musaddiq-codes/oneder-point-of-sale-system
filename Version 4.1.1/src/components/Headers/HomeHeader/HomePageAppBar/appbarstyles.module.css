@@ -1,0 +1,9 @@
+.appbarrmotherdiv {
+    width: 75%;
+}
+
+@media screen and (max-width: 800px) {
+    .appbarrmotherdiv {
+        width: 100%;
+    }
+}

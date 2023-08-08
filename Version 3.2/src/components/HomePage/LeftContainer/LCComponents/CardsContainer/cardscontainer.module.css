@@ -1,0 +1,157 @@
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------- CardContainer.jsx styles -------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+.nesteddiv1aftermother {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 1114px) {
+    .nesteddiv1aftermother {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        background-color: lightseagreen;
+        width: 100%;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 847px) {
+    .nesteddiv1aftermother {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        background-color: green;
+        width: 100%;
+        height: 700px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------- SimpleCards styles -------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+.simplecardmotherdiv {
+    display: flex;
+    width: 24%;
+    height: 135px;
+    margin: 4px;
+    border-radius: 3%;
+}
+
+@media screen and (max-width: 1114px) {
+    .simplecardmotherdiv {
+        display: flex;
+        width: 32%;
+        height: 135px;
+        margin: 4px;
+        border-radius: 3%;
+
+    }
+}
+
+@media screen and (max-width: 847px) {
+    .simplecardmotherdiv {
+        display: flex;
+        width: 48%;
+        height: 135px;
+        margin: 4px;
+        border-radius: 3%;
+
+    }
+}
+
+/* @media screen and (max-width: 1400px) {
+    .simplecardmotherdiv {
+        background-color: black;
+        display: flex;
+        width: 24%;
+        height: 135px;
+        margin: 4px;
+        border-radius: 3%;
+
+    }
+} */
+
+
+
+/* @media screen and (max-width: 1100px) {
+    .simplecardmotherdiv {
+        display: flex;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .simplecardmotherdiv {
+        display: flex;
+        width: 50%;
+    }
+} */
+
+.simplecardnesteddiv1 {
+    padding: 8px;
+}
+
+.para2 {
+    margin-top: 70px;
+}
+
+
+.simplecardpaper:hover {
+    background-color: #467e94;
+}
+
+.linkStyles {
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------- UpDownCards styles -------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+.updownmotherdiv {
+    width: 241px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.nesteddiv1 {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.nesteddiv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 5px;
+
+}

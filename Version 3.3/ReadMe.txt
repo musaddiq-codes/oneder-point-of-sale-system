@@ -1,0 +1,2 @@
+One thing revelead that routs can not change sections on same page and there is only need to change states between routes.
+So Deleted all yesterday genrated folders Section B Section C etc. And Reverced changes except responsive ness.
